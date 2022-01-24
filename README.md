@@ -10,15 +10,14 @@ To begin on the Walmart example:
 
 **3. ML Predictions**: Run the code *walmart-ml-prediction_topicid.py* - this will generate predictions using the ML models you created for each location.
 
-**3. ML Optimization**: Run the code *walmart-ml-optimization_topicid.py* - this will perform mathematical optimizations using the ML models/predictions you created for each location.
+**4. ML Optimization**: Run the code *walmart-ml-optimization_topicid.py* - this will perform mathematical optimizations using the ML models/predictions you created for each location.
 
 To begin on the Anomaly Detection example: 
-**1. Run the produce-data_walmart-topicid.py**: this is will produce data to a main stream and add sub-streams 
+**1. Run the produce-data-anomaly_topicid.py**: this is will produce data for anomaly detection of bank accounts to a main stream and add sub-streams 
  
-**2. ML Training**: Run the code *walmart-ml-training_topicid.py* - this will create invidual ML models for each Walmart location.
+**2. ML Anomaly Training**: Run the code *anomaly-train_topicid.py* - this will create invidual ML peer-groups for each bank account.
 
-**3. ML Predictions**: Run the code *walmart-ml-prediction_topicid.py* - this will generate predictions using the ML models you created for each location.
+**3. ML Anomaly Predictions**: Run the code *anomaly-predict_topicid.py* - this will generate anomaly predictions using the ML peer-groups you created for each bank account.
 
-**3. ML Optimization**: Run the code *walmart-ml-optimization_topicid.py* - this will perform mathematical optimizations using the ML models/predictions you created for each location.
 
 

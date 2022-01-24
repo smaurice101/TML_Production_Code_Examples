@@ -257,7 +257,7 @@ def performAnomalyDetection(streamstoanalyse,flagstraining,flagsprediction,banka
       peergroup_partition=''
       topicid=bankaccount
       rollbackoffsets=50
-      fullpathtopeergroupdata=''c:/viperdemo/models/anomaly'
+      fullpathtopeergroupdata='c:/viperdemo/models/anomaly'
 
       ###################### ONLY ONE LINE OF CODE NEEDED TO PREDICT ANOMALIES ON ANY NUMBER OF DATA STREAMS ###################     
 

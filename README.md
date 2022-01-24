@@ -13,6 +13,7 @@ This code will also show you how you can create "sub-streams" have streaming int
 
 **4. ML Optimization**: Run the code *walmart-ml-optimization_topicid.py* - this will perform mathematical optimizations using the ML models/predictions you created for each location.
 
+---
 
 **To begin on the Anomaly Detection example:** 
 

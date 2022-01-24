@@ -3,7 +3,7 @@
 
 This code will also show you how you can create "sub-streams" have streaming into 1 topic, and reduce your cloud costs significantly.  For example, even if you want to create inidividual ML models for 10,000 IoT devices, you do NOT need 10,000 streams, rather you can create 1 stream, and create 10,000 sub-streams inside the 1 stream.  This way you will be charged for 1 topic, not 10,000 topics or partitions.
 
-To begin on the Walmart example: 
+**To begin on the Walmart example:** 
 
 **1. Run the produce-data_walmart-topicid.py**: this is will produce data to a main stream and add sub-streams 
  
@@ -14,12 +14,10 @@ To begin on the Walmart example:
 **4. ML Optimization**: Run the code *walmart-ml-optimization_topicid.py* - this will perform mathematical optimizations using the ML models/predictions you created for each location.
 
 
-To begin on the Anomaly Detection example: 
+**To begin on the Anomaly Detection example:** 
+
 **1. Run the produce-data-anomaly_topicid.py**: this is will produce data for anomaly detection of bank accounts to a main stream and add sub-streams 
  
 **2. ML Anomaly Training**: Run the code *anomaly-train_topicid.py* - this will create invidual ML peer-groups for each bank account.
 
 **3. ML Anomaly Predictions**: Run the code *anomaly-predict_topicid.py* - this will generate anomaly predictions using the ML peer-groups you created for each bank account.
-
-
-
